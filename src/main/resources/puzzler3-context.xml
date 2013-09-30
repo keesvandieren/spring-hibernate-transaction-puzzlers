@@ -6,5 +6,4 @@
     <import resource="persistence-context.xml"/>
 
     <bean id="job" class="puzzlers.puzzler3.Puzzler3TransactionalJobWithSuperClass"/>
-
 </beans>

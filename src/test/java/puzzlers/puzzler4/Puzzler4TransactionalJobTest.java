@@ -12,7 +12,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 public class Puzzler4TransactionalJobTest {
 
     @Autowired
-    private Puzzler4TransactionalJob job;
+    private Puzzler4TransactionalJobInterface job;
 
     @Test
     public void runJobRuns() {

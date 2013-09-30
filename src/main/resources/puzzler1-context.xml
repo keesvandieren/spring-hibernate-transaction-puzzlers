@@ -5,6 +5,5 @@
 
     <import resource="persistence-context.xml"/>
 
-
     <bean id="job" class="puzzlers.puzzler1.Puzzler1TransactionalJob"/>
 </beans>
