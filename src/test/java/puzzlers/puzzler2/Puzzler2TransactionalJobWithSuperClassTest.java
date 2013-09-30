@@ -14,7 +14,7 @@ public class Puzzler2TransactionalJobWithSuperClassTest {
     private Puzzler2TransactionalJobWithSuperClass job;
 
     @Test
-    public void voerJobUit() throws InterruptedException {
+    public void runJobRuns() throws InterruptedException {
         job.runJob();
     }
 }

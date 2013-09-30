@@ -25,8 +25,8 @@ public class Puzzler1TransactionalJobTest {
      *
      */
     @Test
-    public void voerTriggerUit() throws InterruptedException {
-        job.jobTrigger();
+    public void runJobRuns() throws InterruptedException {
+        job.runJob();
     }
 
     /**
@@ -34,6 +34,6 @@ public class Puzzler1TransactionalJobTest {
      */
     @Test
     public void callingTransactionalMethodWorks() {
-        job.runJob();
+        job.executeJob();
     }
 }

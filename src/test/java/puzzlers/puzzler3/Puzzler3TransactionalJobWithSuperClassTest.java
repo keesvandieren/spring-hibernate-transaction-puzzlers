@@ -18,7 +18,7 @@ public class Puzzler3TransactionalJobWithSuperClassTest {
      * Niet Transactioneel: final method.
      */
     @Test
-    public void runJob() {
+    public void runJobRuns() {
         job.runJob();
     }
 

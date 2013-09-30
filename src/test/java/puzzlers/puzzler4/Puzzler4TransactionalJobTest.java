@@ -15,7 +15,7 @@ public class Puzzler4TransactionalJobTest {
     private Puzzler4TransactionalJob job;
 
     @Test
-    public void waitForJobRun() throws InterruptedException {
+    public void runJobRuns() {
         job.runJob();
     }
 

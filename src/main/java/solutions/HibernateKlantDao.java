@@ -25,7 +25,7 @@ class GenericDaoSupport<Type> {
         boolean readOnly = TransactionSynchronizationManager.isCurrentTransactionReadOnly();
 
         if (!(active && !readOnly)) {
-            throw new IllegalStateException("There must be an active, not-readonly transaction, but none is found.");
+            throw new IllegalStateException("There must be an active, not-readonly transaction.");
         }
     }
 }
